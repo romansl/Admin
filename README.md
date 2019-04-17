@@ -28,6 +28,7 @@ choco install telegram -y
 choco install keypirinha -y
 choco install totalcommander -y
 choco install sublimetext3 -y
+choco install putty -y
 ```
 
 ## Создаём ключик для гита
