@@ -1,2 +1,47 @@
 # Admin
 Админские заметки
+
+## Установка дефолтного языка при вводе с клавы на английский.
+
+После команды надо ещё скопировать настройки на всх юзеров:
+`Win + R` → `control.exe` → `Просмотр: Категория` → `Мелкие значки` → `Региональные стандарты` → `вкладка «Дополнительно»` → `«Копировать параметры»`
+```powershell
+Set-WinUserLanguageList -LanguageList en-US,ru -Force
+```
+
+## Установка chocolatey
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
+Или скачать: https://chocolatey.org/install.ps1
+
+```cmd
+choco install chocolateygui -y
+choco install git -y
+choco install jdk11 -y
+choco install 7zip -y
+choco install cpu-z -y
+choco install everything -y
+choco install sysinternals -y
+choco install smartgit -y
+choco install telegram -y
+choco install keypirinha -y
+choco install totalcommander -y
+choco install sublimetext3 -y
+```
+
+## Создаём ключик для гита
+```cmd
+ssh-keygen -t rsa -C "leukinrs@gmail.com" -b 4096
+type %userprofile%\.ssh\id_rsa.pub | clip
+```
+
+## Конфигурация гита
+```cmd
+git config --global core.autocrlf input
+```
+
+## Исключения антивируса
+```powershell
+Add-MpPreference -ExclusionPath C:\home, "$env:USERPROFILE\.AndroidStudio3.3", "$env:USERPROFILE\.gradle" -ExclusionProcess studio64.exe
+```
