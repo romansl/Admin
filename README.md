@@ -41,6 +41,27 @@ type %userprofile%\.ssh\id_rsa.pub | clip
 git config --global core.autocrlf input
 ```
 
+Чтобы работал SmartGit надо добавить в начало `%userprofile%\gitconfig`:
+```config
+[credential]
+    helper=
+```
+
+Полный `%userprofile%\gitconfig`:
+```config
+[credential]
+    helper=
+[user]
+	name = Leukin Roman
+	email = leukinrs@gmail.com
+[gc]
+	autoDetach = false
+[core]
+	autocrlf = input
+[pull]
+	rebase = true
+```
+
 ## Исключения антивируса
 ```powershell
 Add-MpPreference -ExclusionPath C:\home, "$env:USERPROFILE\.AndroidStudio3.3", "$env:USERPROFILE\.gradle" -ExclusionProcess studio64.exe
