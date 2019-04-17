@@ -36,6 +36,11 @@ ssh-keygen -t rsa -C "leukinrs@gmail.com" -b 4096
 type %userprofile%\.ssh\id_rsa.pub | clip
 ```
 
+Тест:
+```cmd
+ssh -T git@github.com
+```
+
 ## Конфигурация гита
 ```cmd
 git config --global core.autocrlf input
