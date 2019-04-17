@@ -51,6 +51,7 @@ git config --global core.autocrlf input
 [credential]
     helper=
 ```
+Перезапустить SmartGit!
 
 Полный `%userprofile%\gitconfig`:
 ```config
