@@ -73,3 +73,18 @@ git config --global core.autocrlf input
 ```powershell
 Add-MpPreference -ExclusionPath C:\home, "$env:USERPROFILE\.AndroidStudio3.3", "$env:USERPROFILE\.gradle" -ExclusionProcess studio64.exe
 ```
+
+## Keypirinha
+```config
+[app]
+launch_at_startup = yes
+hotkey_run = Alt+Space
+
+[gui]
+hide_on_focus_lost = yes
+theme = MediumLayout
+retain_last_search = yes
+
+[external]
+file_explorer = "C:\Program Files\totalcmd\TOTALCMD64.EXE" /O /S /L={{file}}
+```
