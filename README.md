@@ -71,7 +71,7 @@ git config --global core.autocrlf input
 
 ## Исключения антивируса
 ```powershell
-Add-MpPreference -ExclusionPath C:\home, "$env:USERPROFILE\.AndroidStudio3.3", "$env:USERPROFILE\.gradle" -ExclusionProcess studio64.exe
+Add-MpPreference -ExclusionPath C:\home, "$env:USERPROFILE\.android", "$env:USERPROFILE\.AndroidStudio3.4", "$env:USERPROFILE\.gradle" -ExclusionProcess studio64.exe
 ```
 
 ## Keypirinha
