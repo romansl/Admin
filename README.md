@@ -89,4 +89,4 @@ retain_last_search = yes
 file_explorer = "C:\Program Files\totalcmd\TOTALCMD64.EXE" /O /S /L={{file}}
 ```
 
-Поправленный Bookmarks плагин.
+[Поправленный Bookmarks плагин](https://github.com/romansl/Admin/raw/master/Keypirinha/Bookmarks.keypirinha-package)
