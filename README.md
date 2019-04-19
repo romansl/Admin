@@ -89,4 +89,10 @@ retain_last_search = yes
 file_explorer = "C:\Program Files\totalcmd\TOTALCMD64.EXE" /O /S /L={{file}}
 ```
 
-[Поправленный Bookmarks плагин](https://github.com/romansl/Admin/raw/master/Keypirinha/Bookmarks.keypirinha-package)
+[Поправленный Bookmarks плагин (v2.23)](https://github.com/romansl/Admin/raw/master/Keypirinha/Bookmarks.keypirinha-package)
+
+Заменена строка `\providers\chrome.py:69` на
+```python
+fh = open(bookmarks_file, encoding='utf-8')
+```
+
