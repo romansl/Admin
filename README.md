@@ -88,3 +88,5 @@ retain_last_search = yes
 [external]
 file_explorer = "C:\Program Files\totalcmd\TOTALCMD64.EXE" /O /S /L={{file}}
 ```
+
+Поправленный Bookmarks плагин.
