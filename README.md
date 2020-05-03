@@ -101,6 +101,14 @@ retain_last_search = yes
 file_explorer = "C:\Program Files\totalcmd\TOTALCMD64.EXE" /O /S /L={{file}}
 ```
 
+## JPEGView
+
+Save to: `c:\Users\Roman\AppData\Roaming\JPEGView\JPEGView.ini`
+
+## Totalcmd
+
+Unpack GHISLER.zip to `c:\Users\Roman\AppData\Roaming\GHISLER\`
+
 [Поправленный Bookmarks плагин (v2.23)](https://github.com/romansl/Admin/raw/master/Keypirinha/Bookmarks.keypirinha-package)
 
 Заменена строка `\providers\chrome.py:69` на
