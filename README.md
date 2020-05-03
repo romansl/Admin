@@ -41,6 +41,7 @@ choco install keypirinha -y
 choco install totalcommander -y
 choco install sublimetext3 -y
 choco install putty -y
+choco install jpegview -y
 ```
 
 ## Создаём ключик для гита
