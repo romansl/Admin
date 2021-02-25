@@ -115,4 +115,4 @@ Save [JPEGView.ini](https://github.com/romansl/Admin/blob/master/JPEGView.ini) t
 
 ## Totalcmd
 
-Unpack [[GHISLER.zip]] to `c:\Users\Roman\AppData\Roaming\GHISLER\`
+Unpack [GHISLER.zip](https://github.com/romansl/Admin/blob/master/GHISLER.ZIP) to `c:\Users\Roman\AppData\Roaming\GHISLER\`
