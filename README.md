@@ -111,8 +111,8 @@ fh = open(bookmarks_file, encoding='utf-8')
 
 ## JPEGView
 
-Save to: `c:\Users\Roman\AppData\Roaming\JPEGView\JPEGView.ini`
+Save [JPEGView.ini](https://github.com/romansl/Admin/blob/master/JPEGView.ini) to: `c:\Users\Roman\AppData\Roaming\JPEGView\JPEGView.ini`
 
 ## Totalcmd
 
-Unpack GHISLER.zip to `c:\Users\Roman\AppData\Roaming\GHISLER\`
+Unpack [GHISLER.zip](https://github.com/romansl/Admin/blob/master/GHISLER.ZIP) to `c:\Users\Roman\AppData\Roaming\GHISLER\`
